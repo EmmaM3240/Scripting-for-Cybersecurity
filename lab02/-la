@@ -1,0 +1,16 @@
+total 40
+drwxrwxrwx+ 8 codespace codespace 4096 Sep 15 11:06 .
+drwxrwxrwx+ 5 codespace root      4096 Sep 15 21:50 ..
+-rw-rw-rw-  1 codespace codespace    0 Sep 15 11:04 echo
+drwxrwxrwx+ 2 codespace codespace 4096 Sep 15 10:50 evidence
+-rw-rw-rw-  1 codespace codespace    0 Sep 15 10:52 file1.txt
+-rw-rw-rw-  1 codespace codespace    0 Sep 15 10:52 file2.txt
+-rw-rw-rw-  1 codespace codespace    0 Sep 15 10:52 file3.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Sep 15 10:57 logs
+drwxrwxrwx+ 2 codespace codespace 4096 Sep 15 10:51 notes
+-rw-rw-rw-  1 codespace codespace    0 Sep 15 11:04 notes.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Sep 15 10:51 reports
+drwxrwxrwx+ 2 codespace codespace 4096 Sep 15 10:50 scripts
+-rw-rw-rw-  1 codespace codespace  103 Sep 15 22:18 system.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Sep 15 10:51 temp
+-rw-rw-rw-  1 codespace codespace   58 Sep 15 11:06 timestamp.txt
