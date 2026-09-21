@@ -1,0 +1,9 @@
+Authentication Analysis
+
+Total Events: £(wc -l < auth.log)
+Failed Password Events: 124
+Accepted Password Events: 57
+Invalid User Events:  1
+
+Failed Login Source:
+Total Events: 184
