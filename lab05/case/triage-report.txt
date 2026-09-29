@@ -1,0 +1,45 @@
+=== TRIAGE REPORT ===
+Generated: Tue Sep 29 11:36:54 UTC 2026
+
+System Info:
+Linux codespaces-7a9149 6.8.0-1064-azure #72~22.04.1-Ubuntu SMP Wed Jul 22 23:39:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+Logged-in Users:
+
+Recent Logins:
+
+wtmp begins Mon Aug 31 00:15:42 2026
+
+Running Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+     659  1.2  4.6 18813856 380228 ?     Sl   10:07   1:05 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node --dns-result-order=ipv4first /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+codespa+     673  0.0  1.7 18544352 138876 ?     Sl   10:07   0:02 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/out/bootstrap-fork --type=agentHost --logsPath /home/codespace/.vscode-remote/data/logs/20260929T100739 --user-data-dir /home/codespace/.vscode-remote/data --telemetry-level all
+codespa+     637  0.1  1.6 1768440 130744 ?      Sl   10:07   0:07 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/out/server-main.js --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+root          73  0.0  1.1 2031672 92088 ?       Sl   10:07   0:01 dockerd --containerd /run/containerd/containerd.sock --dns 168.63.129.16
+codespa+    1020  0.0  0.9 1503216 80744 ?       Sl   10:07   0:00 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=659
+codespa+    1002  0.1  0.9 1539284 79240 ?       Sl   10:07   0:06 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/out/bootstrap-fork --type=ptyHost --logsPath /home/codespace/.vscode-remote/data/logs/20260929T100739
+codespa+     675  0.0  0.7 1661496 59732 ?       Sl   10:07   0:00 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/out/bootstrap-fork --type=fileWatcher
+root          72  0.0  0.6 1901240 50336 ?       Sl   10:07   0:02 /usr/bin/containerd --config /etc/containerd/config.toml
+codespa+     838  0.0  0.4 640452 39100 ?        Sl   10:07   0:03 /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime --headless --no-auto-update --log-level info --stdio --no-auto-login
+
+Open Network Connections:
+Netid State  Recv-Q Send-Q   Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0        127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0      10.0.2.178%eth0:68         0.0.0.0:*          
+tcp   LISTEN 0      128            0.0.0.0:2222       0.0.0.0:*          
+tcp   LISTEN 0      4096         127.0.0.1:43403      0.0.0.0:*          
+tcp   LISTEN 0      4096         127.0.0.1:36633      0.0.0.0:*          
+tcp   LISTEN 0      512          127.0.0.1:16636      0.0.0.0:*          
+tcp   LISTEN 0      512          127.0.0.1:16634      0.0.0.0:*          
+tcp   LISTEN 0      512          127.0.0.1:16635      0.0.0.0:*          
+tcp   LISTEN 0      511          127.0.0.1:37167      0.0.0.0:*          
+tcp   LISTEN 0      4096         127.0.0.1:12563      0.0.0.0:*          
+tcp   LISTEN 0      4096         127.0.0.1:13005      0.0.0.0:*          
+tcp   LISTEN 0      4096     127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      511          127.0.0.1:42599      0.0.0.0:*          
+tcp   LISTEN 0      128            0.0.0.0:2000       0.0.0.0:*          
+tcp   LISTEN 0      128               [::]:2222          [::]:*          
+tcp   LISTEN 0      512              [::1]:16636         [::]:*          
+tcp   LISTEN 0      512              [::1]:16635         [::]:*          
+tcp   LISTEN 0      512              [::1]:16634         [::]:*          
+tcp   LISTEN 0      128               [::]:2000          [::]:*          
